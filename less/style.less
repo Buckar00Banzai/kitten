@@ -53,8 +53,14 @@ em {
 .pad-top {
   padding-top: 24px;
 }
+.pad-top-sm {
+  padding-top: 10px;
+}
 .pad-bot {
   padding-bottom: 24px;
+}
+.pad-bot-sm {
+  padding-bottom: 10px;
 }
 .pad-right {
   padding-right: 10px;
@@ -76,6 +82,9 @@ em {
 }
 .coral {
   color: #ff7f7f;
+}
+.pink {
+  color: @pink;
 }
 .hide-text {
   text-indent: 110%;
@@ -107,8 +116,8 @@ button,
 input[type="submit"],
 .btn {
   font-family: 'Gotham A', 'Gotham B', arial, sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: normal;
   letter-spacing: 6px;
   text-transform: uppercase;
 }
@@ -190,7 +199,6 @@ button,
   margin: 0;
   padding: 10px 52px;
   text-transform: uppercase;
-  font-weight: 900;
   font-style: normal;
   line-height: 27px;
   font-size: 14px;
@@ -206,6 +214,10 @@ button,
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-decoration: none !important;
+}
+.btn-default {
+  text-shadow: none !important;
 }
 .btn-small {
   padding: 10px 20px;
@@ -224,10 +236,12 @@ button,
 input[type="submit"]:hover,
 button:hover,
 button:focus,
+.btn-default:hover,
 .btn:hover,
 .btn:focus {
   opacity: 1 !important;
   color: #fff;
+
 }
 .prose.narrow {
   margin: 0 auto;
@@ -237,6 +251,11 @@ button:focus,
 .prose ul,
 .prose ol {
   margin-bottom: 24px;
+}
+
+i {
+  color: white;
+  font-size: 32px !important;
 }
 /* **/
 /** header */
@@ -440,13 +459,18 @@ p.wide {
 .press-section {
   padding: 0;
 }
-.press li {
-  width: 20%;
-  padding: 0 1%;
+.press {
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  padding: 40px 0px;
 }
 .press li {
+  padding: 0 1%;
   float: left;
   overflow: hidden;
+  display: table-cell;
+
 }
 .press a {
   display: block;
@@ -558,30 +582,7 @@ p.wide {
     padding-bottom: 24px;
   }
 }
-/* **/
-/** production section */
-a.ringly-item {
-  display: block;
-  margin-bottom: 48px;
-  overflow: hidden;
-  color: #000000;
-  text-decoration: none;
-  line-height: 36px;
-}
-a.ringly-item:hover .img {
-  display: none;
-}
-a.ringly-item:hover .img_h {
-  display: inline-block;
-}
-a.ringly-item:hover .item-btn {
-  background: #000;
-  color: #fff;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
+
 .item-img .img,
 .item-img .img_h {
   max-width: 100%;
@@ -620,13 +621,14 @@ a.ringly-item:hover .item-btn {
 .item-btn {
   margin: 24px auto 0;
   max-width: 190px;
-  border: 1px solid #000000;
   padding: 2px 0;
   font-family: 'Gotham A', 'Gotham B', arial, sans-serif;
   font-style: normal;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 600;
+}
+.item-btn:hover {
+  background: @pink;
 }
 @media (max-width: 460px) {
   .col-xs-6 {
@@ -869,6 +871,9 @@ html.touch .app-screen {
 }
 /* **/
 /** prefooter section */
+.prefooter-section {
+  background: lighten(@pink, 40%);
+}
 .reserve-btn {
   padding: 12px 72px;
 }
@@ -958,11 +963,14 @@ footer a:focus {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-indent: 110%;
-  white-space: nowrap;
   overflow: hidden;
 }
 .social:hover {
   border-color: #fff;
+}
+.socials .fa {
+  font-size: 24px;
+  margin-right: 15px;
 }
 /* **/
 /** copyright */
