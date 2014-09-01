@@ -414,12 +414,7 @@ p.wide {
 .top_slider .slide2 .flex_caption1 {
   top: 20%;
 }
-@media (max-width: 767px) {
-  .top_slider .flex_caption1 {
-    top: 10% !important;
-    left: 0 !important;
-  }
-}
+
 #home,
 .flexslider.top_slider .slides li {
   height: 580px;
@@ -709,6 +704,10 @@ html.touch .app-screen {
   text-align: center;
   visibility: hidden;
 }
+.app-text .span {
+  font-size: 14px;
+  line-height: 18px;
+}
 .app-text.ready {
   visibility: visible;
 }
@@ -727,7 +726,7 @@ html.touch .app-screen {
   margin-left: -22.5px;
 }
 .app-screen {
-  background-position: 10% 100px;
+  background-position: 10% 80px;
 }
 @media (min-width: 1200px) {
   .app-graphic b {
@@ -810,41 +809,38 @@ html.touch .app-screen {
   }
 }
 /* **/
-/** connect section */
-.connect-section {
+/** ashley section */
+.ashley-section {
   background-color: #81e9c8;
 }
-.connect-section .app-screen {
-  background-image: url("../images/ringly-app-1-med.png");
+.ashley-section .app-screen {
+  background-image: url("../images/phones/phone-ashley.png");
 }
 /* **/
-/** customize section */
-.customize-section {
+/** bryana section */
+.bryana-section {
   background-color: #ff7d7b;
 }
-.customize-section .app-screen {
-  background-image: url("../images/ringly-app-2-med.png");
+.bryana-section .app-screen {
+  background-image: url("../images/phones/phone-bryana.png");
 }
 /* **/
-/** enjoy section */
-.enjoy-section {
+/** sophie section */
+.sophie-section {
   background-color: #cf8bd2;
 }
-.enjoy-section .app-screen {
-  background-image: url("../images/ringly-app-3-med.png");
+.sophie-section .app-screen {
+  background-image: url("../images/phones/phone-sophie.png");
 }
-.enjoy-meeting .app-screen {
-  background-image: url("../images/RinglyApp-MEETING.png");
+/* **/
+/** rachel section */
+.rachel-section {
+  background-color: #cf8bd2;
 }
-.enjoy-annie .app-screen {
-  background-image: url("../images/RinglyApp-ANNIE.png");
+.rachel-section .app-screen {
+  background-image: url("../images/phones/phone-rachel.png");
 }
-.enjoy-text .app-screen {
-  background-image: url("../images/RinglyApp-TEXT.png");
-}
-.enjoy-uber .app-screen {
-  background-image: url("../images/RinglyApp-UBER.png");
-}
+
 /* **/
 /** video section */
 .video-section {
@@ -920,25 +916,7 @@ footer a:focus {
   background-color: #434343;
 }
 /* **/
-/** */
-.mobile-want-one {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 19px 0 20px;
-  border-top: 1px solid #979595;
-  width: 100%;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.6);
-  text-align: center;
-  z-index: 30;
-}
-@media (max-width: 640px) {
-  .mobile-want-one {
-    display: block;
-  }
-}
+
 /* **/
 /** responsive */
 .respond-clear-768 {
