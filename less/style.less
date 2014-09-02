@@ -8,7 +8,9 @@
 /*-- VARIABLES --*/
 
 @pink : #FF0066;
-
+@purple : #663399;
+@blue : #5863e2;
+@yellow : #f2ff02;
 
 /** core styles */
 .default-font {
@@ -204,7 +206,7 @@ button,
   font-size: 14px;
   letter-spacing: 3px;
   color: #fff;
-  background: #66b8bc;
+  background: @pink;
   border: 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -254,7 +256,6 @@ button:focus,
 }
 
 i {
-  color: white;
   font-size: 32px !important;
 }
 /* **/
@@ -491,7 +492,7 @@ p.wide {
 }
 /* **/
 /** notifies section */
-.notifies-section .container {
+/*.notifies-section .container {
   min-height: 621px;
   background: transparent url("../images/iPhone-Ringlys.png") scroll no-repeat 0 center;
 }
@@ -534,7 +535,7 @@ p.wide {
 }
 .notifies-section #notification li.first {
   font-size: 100%;
-}
+}*/
 /*
 @media (min-width: 768px) {
     .notifies-section {
@@ -659,6 +660,10 @@ p.wide {
 }
 .phone-section .app-text {
   z-index: 2;
+}
+.phone-section img {
+  width: 400px;
+  height: 400px;
 }
 @media (max-width: 640px) {
   .phone-section p {
@@ -811,34 +816,52 @@ html.touch .app-screen {
 /* **/
 /** ashley section */
 .ashley-section {
-  background-color: #81e9c8;
+  background-color: lighten(@pink, 20%);
 }
 .ashley-section .app-screen {
   background-image: url("../images/phones/phone-ashley.png");
 }
+.ashley-section a {
+  color: white;
+}
 /* **/
 /** bryana section */
-.bryana-section {
-  background-color: #ff7d7b;
+.anastasia-section {
+  background-color: lighten(@blue, 20%);
 }
-.bryana-section .app-screen {
-  background-image: url("../images/phones/phone-bryana.png");
+.anastasia-section .app-text {
+  color: black;
+}
+.anastasia-section .app-screen {
+  background-image: url("../images/phones/phone-anastasia.png");
+}
+.anastasia-section a {
+  color: black;
 }
 /* **/
 /** sophie section */
 .sophie-section {
-  background-color: #cf8bd2;
+  background-color: lighten(@purple, 20%);
 }
 .sophie-section .app-screen {
   background-image: url("../images/phones/phone-sophie.png");
 }
+.sophie-section a {
+  color: white;
+}
 /* **/
 /** rachel section */
 .rachel-section {
-  background-color: #cf8bd2;
+  background-color: lighten(@yellow, 20%);
+}
+.rachel-section .app-text {
+  color: black;
 }
 .rachel-section .app-screen {
   background-image: url("../images/phones/phone-rachel.png");
+}
+.rachel-section a {
+  color: black;
 }
 
 /* **/
