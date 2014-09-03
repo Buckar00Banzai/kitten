@@ -16,6 +16,9 @@
     width: 100%;
     height: auto;
   }
+  .app-text p {
+    padding: 10px;
+  }
   .app-screen {
     display: none;
   }
