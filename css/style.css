@@ -172,6 +172,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 a:hover {
+  color: #ff0066;
   text-decoration: none;
 }
 textarea {
