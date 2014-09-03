@@ -1,6 +1,24 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
+  #home,
+  .flexslider.top_slider .slides li {
+    height: 400px;
+  }
+  #home h1 {
+    padding: 0px 10px;
+    letter-spacing: 1px;
+  }
+  .flex_caption1 {
+    left: 10% !important;
+  }
+  .app-text img {
+    width: 100%;
+    height: auto;
+  }
+  .app-screen {
+    display: none;
+  }
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
@@ -9,9 +27,6 @@
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
   /* Styles */
-  .flex_caption1 {
-    left: 10% !important;
-  }
 }
 @media only screen and (max-width: 767px) {
   .top_slider .flex_caption1 {
@@ -48,7 +63,7 @@
   /* Retina-specific stuff here */
   .logo {
     background: transparent url("../images/kitten-logo_@2x.png") scroll no-repeat 0 0;
-    background-size: 200px 50px;
+    background-size: 174px 52px;
   }
   .dark-section {
     background: #000;
