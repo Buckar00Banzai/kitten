@@ -288,6 +288,9 @@ header a:active {
 header .order-now {
   padding: 12px 0px 0px 0px;
 }
+header .order-now .btn-small {
+  background: #FF69B4;
+}
 @media (max-width: 640px) {
   header {
     position: absolute;
@@ -889,7 +892,7 @@ html.touch .app-screen {
 /* **/
 /** footer */
 footer {
-  padding-top: 48px;
+  padding: 24px 0;
   font-size: 11px;
   line-height: 20px;
   color: #999;
@@ -899,11 +902,11 @@ footer h4 {
   color: #fff;
 }
 footer a {
-  color: #999;
+  color: #d74591;
 }
 footer a:hover,
 footer a:focus {
-  color: #fff;
+  color: #005580;
 }
 .newsletter-form input[type="text"] {
   width: 240px;
@@ -961,7 +964,6 @@ footer a:focus {
 /** copyright */
 .copyright {
   padding: 12px 0;
-  background: #2c2c2c;
 }
 .foot-logo {
   width: 95px;
@@ -986,5 +988,24 @@ footer a:focus {
   footer {
     margin-bottom: 87px;
   }
+  .moreinfo,
+  .copy {
+    width: 50%;
+  }
+  .app-screen {
+    visibility: hidden;
+  }
+}
+.moreinfo {
+  color: #ccc;
+  display: inline-block;
+  font-size: 14px;
+  margin: 6px 0 0;
+}
+.copy {
+  color: #d6d6d6;
+  float: right;
+  font-size: 14px;
+  margin: 6px 0 0;
 }
 /* **/
