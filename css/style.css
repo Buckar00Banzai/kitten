@@ -249,6 +249,7 @@ button:focus,
 }
 i {
   font-size: 32px !important;
+  padding: 0 10px;
 }
 /* **/
 /** header */
@@ -851,6 +852,10 @@ html.touch .app-screen {
 }
 .rachel-section a {
   color: black;
+}
+/* -- GIRL GRID -- */
+.grid-icon i {
+  font-size: 16px !important;
 }
 /* **/
 /** video section */
