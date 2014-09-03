@@ -238,6 +238,12 @@ button:focus,
   opacity: 1 !important;
   color: #fff;
 }
+.btn-bright {
+  opacity: 1 !important;
+}
+.btn-bright:hover {
+  opacity: 0.7 !important;
+}
 .prose.narrow {
   margin: 0 auto;
   max-width: 630px;
@@ -471,6 +477,12 @@ p.wide {
   position: absolute;
   top: -240px;
   left: -999em;
+}
+.counter {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #ff0066;
 }
 @media (max-width: 640px) {
   .press li {
