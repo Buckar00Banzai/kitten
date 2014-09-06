@@ -1108,7 +1108,6 @@ a.gia-img {
   padding-top: 100%;
 }
 a.gia-img:hover {
-  background: url('../images/circles-sm/gia-cat.png') no-repeat;
   background-size: contain;
   width: 100%;
   height: auto;
