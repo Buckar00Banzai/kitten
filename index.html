@@ -38,10 +38,19 @@
 			<a class="logo" href="#">Kitten</a>
 			<p class="order-now text-right">
 				<span class="small em pad-right">A modeling agency built for mobile + social</span>
-				<a class="btn btn-bright btn-small" href="mailto:booking@galoremag.com">Join Kitten</a>
-				<div id="join-modal">
-					<div class="">
-
+				<button id="join-kitten" class="btn btn-bright btn-small" href="">Join Kitten</button>
+				<div id="modal-back">
+					<div id="join-modal">
+						<h2>Join Kitten</h2>
+						<div class="input-group">
+							<span class="input-group-addon">Name</span>
+							<input type="text" class="form-control" placeholder="Name">
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon">Email</span>
+							<input type="text" class="form-control" placeholder="Email">
+						</div>
+						<button class="">Join</button>
 					</div>
 				</div>
 			</p>
@@ -305,12 +314,12 @@
 					</div>
 
 					<div class="col-lg-3 col-md-3 col-xs-6 col-ss-12 padbot40">
-						<a class="jenah-img" href="http://instagram.com/grl" target="blank">
+						<a class="jenah-img" href="http://instagram.com/gypsyone" target="blank">
 							<strong class="item-title">Jenah Yamamoto</strong>
 							<p style="height: 24px"></p>
-							<a class="grid-icon" href="http://instagram.com/grl" target="blank"><i class="fa fa-instagram"></i></a>
-							<a class="grid-icon" href="https://www.facebook.com/GRL" target="blank"><i class="fa fa-facebook"></i></a>
-							<a class="grid-icon" href="https://twitter.com/grl" target="blank"><i class="fa fa-twitter"></i></a>
+							<a class="grid-icon" href="http://instagram.com/gypsyone" target="blank"><i class="fa fa-instagram"></i></a>
+							<a class="grid-icon" href="https://www.facebook.com/jenahyamamoto1" target="blank"><i class="fa fa-facebook"></i></a>
+							<a class="grid-icon" href="https://twitter.com/missgypsyone" target="blank"><i class="fa fa-twitter"></i></a>
 							<a href="mailto:kitten@galoremag.com" class="item-btn btn btn-default btn-pink">Book Now</a>
 						</a>
 					</div>
@@ -441,8 +450,8 @@
 					"http://galoremag.com/kitten/images/circles-sm/rachel-cat.png",
 					"http://galoremag.com/kitten/images/circles-sm/rachel-circ.png",
 					"http://galoremag.com/kitten/images/circles-sm/sophie-cat.png",
-					"http://galoremag.com/kitten/images/circles-sm/sophie-circ.png",
-				)
+					"http://galoremag.com/kitten/images/circles-sm/sophie-circ.png"
+				);
 		</script>
 	</div>
 
@@ -458,8 +467,21 @@
       if (top != self) top.location.replace(self.location.href);
     </script>
 
+    <script>
+
+		$("button").click(function() {
+			$("#modal-back").fadeIn("slow");
+		});
+
+		$("#modal-back").click(function() {
+			$(this).fadeOut("slow");
+		});
+
+	</script>
+
     <!-- LIVE RELOAD -->
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
 
 </body>
 </html>
