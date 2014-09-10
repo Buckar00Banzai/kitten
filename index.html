@@ -39,8 +39,9 @@
 			<p class="order-now text-right">
 				<span class="small em pad-right">A modeling agency built for mobile + social</span>
 				<button id="join-kitten" class="btn btn-bright btn-small" href="">Join Kitten</button>
-				<div id="modal-back">
-					<div id="join-modal">
+				<div id="join-modal">	
+					<div id="join-box">
+						<h2>#YOLO</h2>
 						<h2>Join Kitten</h2>
 						<div class="input-group">
 							<span class="input-group-addon">Name</span>
@@ -51,6 +52,9 @@
 							<input type="text" class="form-control" placeholder="Email">
 						</div>
 						<button class="">Join</button>
+						<p>A little fashion, some beauty, and plenty of sex, created for the girls who are straight killin' it.</p>
+					</div>
+					<div id="modal-back">
 					</div>
 				</div>
 			</p>
@@ -469,12 +473,12 @@
 
     <script>
 
-		$("button").click(function() {
-			$("#modal-back").fadeIn("slow");
+		$('button').click(function() {
+			$('#join-modal').fadeIn('slow');
 		});
 
-		$("#modal-back").click(function() {
-			$(this).fadeOut("slow");
+		$('#modal-back').click(function() {
+			$('#join-modal').fadeOut('slow');
 		});
 
 	</script>
