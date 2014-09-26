@@ -649,11 +649,11 @@ div.ashley-m-img:hover {
 @-moz-keyframes ashley-m-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/ashley-m-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -1714,13 +1714,13 @@ html.touch .app-screen {
 }
 /* **/
 /** ashley section */
-.ashley-section {
+.jenah-section {
   background-color: #ff66a3;
 }
-.ashley-section .app-screen {
-  background-image: url("../images/phones/phone-ashley.png");
+.jenah-section .app-screen {
+  background-image: url("../images/phones/phone-jenah.png");
 }
-.ashley-section a {
+.jenah-section a {
   color: white;
 }
 /* **/
