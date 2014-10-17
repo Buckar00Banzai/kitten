@@ -635,7 +635,7 @@ p.wide {
   }
 }*/
 
-a.ashley-m-img {
+div.ashley-m-img {
   display: block;
   background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
   background-size: contain;
@@ -643,13 +643,41 @@ a.ashley-m-img {
   padding-top: 100%;
 }
 
-a.ashley-m-img:hover {
+div.ashley-m-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: ashley-m-cat 1.2s ease-in-out;
+  -moz-animation: ashley-m-cat 2s;
   -webkit-animation: ashley-m-cat 1.2s ease-in-out;
   animation: ashley-m-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes ashley-m-cat {
+    0% {
+      background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/ashley-m-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes ashley-m-cat {
+    0%, 100% {
+      background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/ashley-m-cat.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes ashley-m-cat {
@@ -668,68 +696,17 @@ a.ashley-m-img:hover {
 }
 
 @keyframes ashley-m-cat {
-    0% {
-      background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
+    0%, 100% {
+      background: red;
       background-size: contain;
     }
     50% {
-      background: url('../images/circles-sm/ashley-m-cat.png') no-repeat;
-      background-size: contain;
-    }
-    100% {
-      background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
+      background: green;
       background-size: contain;
     }
 }
 
-a.ashley-s-img {
-  display: block;
-  background: url('../images/circles-sm/ashley-s-circ.png') no-repeat;
-  background-size: contain;
-  height: auto;
-  padding-top: 100%;
-}
-
-a.ashley-s-img:hover {
-  background-size: contain;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
-  -webkit-animation: ashley-s-cat 1.2s ease-in-out;
-  animation: ashley-s-cat 1.2s ease-in-out;
-}
-
-@-webkit-keyframes ashley-s-cat {
-    0% {
-      background: url('../images/circles-sm/ashley-s-circ.png') no-repeat;
-      background-size: contain;
-    }
-    50% {
-      background: url('../images/circles-sm/ashley-s-cat.png') no-repeat;
-      background-size: contain;
-    }
-    100% {
-      background: url('../images/circles-sm/ashley-s-circ.png') no-repeat;
-      background-size: contain;
-    }
-}
-
-@keyframes ashley-s-cat {
-    0% {
-      background: url('../images/circles-sm/ashley-s-circ.png') no-repeat;
-      background-size: contain;
-    }
-    50% {
-      background: url('../images/circles-sm/ashley-s-cat.png') no-repeat;
-      background-size: contain;
-    }
-    100% {
-      background: url('../images/circles-sm/ashley-s-circ.png') no-repeat;
-      background-size: contain;
-    }
-}
-
-a.anastasia-img {
+div.anastasia-img {
   display: block;
   background: url('../images/circles-sm/anastasia-circ.png') no-repeat;
   background-size: contain;
@@ -737,13 +714,41 @@ a.anastasia-img {
   padding-top: 100%;
 }
 
-a.anastasia-img:hover {
+div.anastasia-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: anastasia-cat 1.2s ease-in-out;
+  -moz-animation: anastasia-cat 1.2s ease-in-out;
   -webkit-animation: anastasia-cat 1.2s ease-in-out;
   animation: anastasia-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes anastasia-cat {
+    0% {
+      background: url('../images/circles-sm/anastasia-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/anastasia-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/anastasia-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes anastasia-cat {
+    0%, 100% {
+      background: url('../images/circles-sm/anastasia-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/anastasia-cat.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes anastasia-cat {
@@ -776,7 +781,7 @@ a.anastasia-img:hover {
     }
 }
 
-a.bo-img {
+div.bo-img {
   display: block;
   background: url('../images/circles-sm/bo-circ.png') no-repeat;
   background-size: contain;
@@ -784,13 +789,45 @@ a.bo-img {
   padding-top: 100%;
 }
 
-a.bo-img:hover {
+div.bo-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: bo-cat 1.2s ease-in-out;
+  -moz-animation: bo-cat 1.2s ease-in-out;
   -webkit-animation: bo-cat 1.2s ease-in-out;
   animation: bo-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes bo-cat {
+    0% {
+      background: url('../images/circles-sm/bo-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/bo-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/bo-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes bo-cat {
+    0% {
+      background: url('../images/circles-sm/bo-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/bo-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/bo-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes bo-cat {
@@ -823,7 +860,7 @@ a.bo-img:hover {
     }
 }
 
-a.charlotte-img {
+div.charlotte-img {
   display: block;
   background: url('../images/circles-sm/charlotte-circ.png') no-repeat;
   background-size: contain;
@@ -831,13 +868,45 @@ a.charlotte-img {
   padding-top: 100%;
 }
 
-a.charlotte-img:hover {
+div.charlotte-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: charlotte-cat 1.2s ease-in-out;
+  -moz-animation: charlotte-cat 1.2s ease-in-out;
   -webkit-animation: charlotte-cat 1.2s ease-in-out;
   animation: charlotte-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes charlotte-cat {
+    0% {
+      background: url('../images/circles-sm/charlotte-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/charlotte-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/charlotte-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes charlotte-cat {
+    0% {
+      background: url('../images/circles-sm/charlotte-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/charlotte-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/charlotte-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes charlotte-cat {
@@ -870,7 +939,7 @@ a.charlotte-img:hover {
     }
 }
 
-a.cheyenne-img {
+div.cheyenne-img {
   display: block;
   background: url('../images/circles-sm/cheyenne-circ.png') no-repeat;
   background-size: contain;
@@ -878,13 +947,45 @@ a.cheyenne-img {
   padding-top: 100%;
 }
 
-a.cheyenne-img:hover {
+div.cheyenne-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: cheyenne-cat 1.2s ease-in-out;
+  -moz-animation: cheyenne-cat 1.2s ease-in-out;
   -webkit-animation: cheyenne-cat 1.2s ease-in-out;
   animation: cheyenne-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes cheyenne-cat {
+    0% {
+      background: url('../images/circles-sm/cheyenne-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/cheyenne-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/cheyenne-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes cheyenne-cat {
+    0% {
+      background: url('../images/circles-sm/cheyenne-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/cheyenne-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/cheyenne-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes cheyenne-cat {
@@ -917,7 +1018,7 @@ a.cheyenne-img:hover {
     }
 }
 
-a.giza-img {
+div.giza-img {
   display: block;
   background: url('../images/circles-sm/giza-circ.png') no-repeat;
   background-size: contain;
@@ -925,13 +1026,45 @@ a.giza-img {
   padding-top: 100%;
 }
 
-a.giza-img:hover {
+div.giza-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: giza-cat 1.2s ease-in-out;
+  -moz-animation: giza-cat 1.2s ease-in-out;
   -webkit-animation: giza-cat 1.2s ease-in-out;
   animation: giza-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes giza-cat {
+    0% {
+      background: url('../images/circles-sm/giza-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/giza-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/giza-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes giza-cat {
+    0% {
+      background: url('../images/circles-sm/giza-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/giza-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/giza-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes giza-cat {
@@ -964,7 +1097,7 @@ a.giza-img:hover {
     }
 }
 
-a.jenah-img {
+div.jenah-img {
   display: block;
   background: url('../images/circles-sm/jenah-circ.png') no-repeat;
   background-size: contain;
@@ -972,13 +1105,45 @@ a.jenah-img {
   padding-top: 100%;
 }
 
-a.jenah-img:hover {
+div.jenah-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: jenah-cat 1.2s ease-in-out;
+  -moz-animation: jenah-cat 1.2s ease-in-out;
   -webkit-animation: jenah-cat 1.2s ease-in-out;
   animation: jenah-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes jenah-cat {
+    0% {
+      background: url('../images/circles-sm/jenah-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/jenah-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/jenah-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes jenah-cat {
+    0% {
+      background: url('../images/circles-sm/jenah-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/jenah-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/jenah-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes jenah-cat {
@@ -1011,7 +1176,7 @@ a.jenah-img:hover {
     }
 }
 
-a.lisa-img {
+div.lisa-img {
   display: block;
   background: url('../images/circles-sm/lisa-circ.png') no-repeat;
   background-size: contain;
@@ -1019,13 +1184,45 @@ a.lisa-img {
   padding-top: 100%;
 }
 
-a.lisa-img:hover {
+div.lisa-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: lisa-cat 1.2s ease-in-out;
+  -moz-animation: lisa-cat 1.2s ease-in-out;
   -webkit-animation: lisa-cat 1.2s ease-in-out;
   animation: lisa-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes lisa-cat {
+    0% {
+      background: url('../images/circles-sm/lisa-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/lisa-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/lisa-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes lisa-cat {
+    0% {
+      background: url('../images/circles-sm/lisa-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/lisa-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/lisa-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes lisa-cat {
@@ -1058,7 +1255,7 @@ a.lisa-img:hover {
     }
 }
 
-a.rachel-img {
+div.rachel-img {
   display: block;
   background: url('../images/circles-sm/rachel-circ.png') no-repeat;
   background-size: contain;
@@ -1066,13 +1263,45 @@ a.rachel-img {
   padding-top: 100%;
 }
 
-a.rachel-img:hover {
+div.rachel-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: rachel-cat 1.2s ease-in-out;
+  -moz-animation: rachel-cat 1.2s ease-in-out;
   -webkit-animation: rachel-cat 1.2s ease-in-out;
   animation: rachel-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes rachel-cat {
+    0% {
+      background: url('../images/circles-sm/rachel-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/rachel-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/rachel-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes rachel-cat {
+    0% {
+      background: url('../images/circles-sm/rachel-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/rachel-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/rachel-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes rachel-cat {
@@ -1105,7 +1334,7 @@ a.rachel-img:hover {
     }
 }
 
-a.sophie-img {
+div.sophie-img {
   display: block;
   background: url('../images/circles-sm/sophie-circ.png') no-repeat;
   background-size: contain;
@@ -1113,13 +1342,45 @@ a.sophie-img {
   padding-top: 100%;
 }
 
-a.sophie-img:hover {
+div.sophie-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: sophie-cat 1.2s ease-in-out;
+  -moz-animation: sophie-cat 1.2s ease-in-out;
   -webkit-animation: sophie-cat 1.2s ease-in-out;
   animation: sophie-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes sophie-cat {
+    0% {
+      background: url('../images/circles-sm/sophie-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/sophie-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/sophie-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes sophie-cat {
+    0% {
+      background: url('../images/circles-sm/sophie-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/sophie-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/sophie-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes sophie-cat {
@@ -1152,7 +1413,7 @@ a.sophie-img:hover {
     }
 }
 
-a.jocelyn-img {
+div.jocelyn-img {
   display: block;
   background: url('../images/circles-sm/jocelyn-circ.png') no-repeat;
   background-size: contain;
@@ -1160,13 +1421,45 @@ a.jocelyn-img {
   padding-top: 100%;
 }
 
-a.jocelyn-img:hover {
+div.jocelyn-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: jocelyn-cat 1.2s ease-in-out;
+  -moz-animation: jocelyn-cat 1.2s ease-in-out;
   -webkit-animation: jocelyn-cat 1.2s ease-in-out;
   animation: jocelyn-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes jocelyn-cat {
+    0% {
+      background: url('../images/circles-sm/jocelyn-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/jocelyn-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/jocelyn-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes jocelyn-cat {
+    0% {
+      background: url('../images/circles-sm/jocelyn-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/jocelyn-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/jocelyn-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes jocelyn-cat {
@@ -1199,7 +1492,7 @@ a.jocelyn-img:hover {
     }
 }
 
-a.gia-img {
+div.gia-img {
   display: block;
   background: url('../images/circles-sm/gia-circ.png') no-repeat;
   background-size: contain;
@@ -1207,13 +1500,45 @@ a.gia-img {
   padding-top: 100%;
 }
 
-a.gia-img:hover {
+div.gia-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  -o-animation: gia-cat 1.2s ease-in-out;
+  -moz-animation: gia-cat 1.2s ease-in-out;
   -webkit-animation: gia-cat 1.2s ease-in-out;
   animation: gia-cat 1.2s ease-in-out;
+}
+
+@-o-keyframes gia-cat {
+    0% {
+      background: url('../images/circles-sm/gia-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/gia-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/gia-circ.png') no-repeat;
+      background-size: contain;
+    }
+}
+
+@-moz-keyframes gia-cat {
+    0% {
+      background: url('../images/circles-sm/gia-circ.png') no-repeat;
+      background-size: contain;
+    }
+    50% {
+      background: url('../images/circles-sm/gia-cat.png') no-repeat;
+      background-size: contain;
+    }
+    100% {
+      background: url('../images/circles-sm/gia-circ.png') no-repeat;
+      background-size: contain;
+    }
 }
 
 @-webkit-keyframes gia-cat {
@@ -1476,13 +1801,13 @@ html.touch .app-screen {
 }
 /* **/
 /** ashley section */
-.ashley-section {
+.jenah-section {
   background-color: lighten(@pink, 20%);
 }
-.ashley-section .app-screen {
-  background-image: url("../images/phones/phone-ashley.png");
+.jenah-section .app-screen {
+  background-image: url("../images/phones/phone-jenah.png");
 }
-.ashley-section a {
+.jenah-section a {
   color: white;
 }
 /* **/
