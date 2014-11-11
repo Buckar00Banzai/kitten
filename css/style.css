@@ -3406,42 +3406,42 @@ html.touch .app-screen {
   color: white;
 }
 /* **/
-/** bryana section */
-.anastasia-section {
+/** sahara section */
+.sahara-section {
   background-color: #afb4f1;
 }
-.anastasia-section .app-text {
+.sahara-section .app-text {
   color: black;
 }
-.anastasia-section .app-screen {
-  background-image: url("../images/phones/phone-anastasia.png");
+.sahara-section .app-screen {
+  background-image: url("../images/phones/phone-sahara.png");
 }
-.anastasia-section a {
+.sahara-section a {
   color: black;
 }
 /* **/
-/** sophie section */
-.sophie-section {
+/** julia section */
+.julia-section {
   background-color: #9966cc;
 }
-.sophie-section .app-screen {
-  background-image: url("../images/phones/phone-sophie.png");
+.julia-section .app-screen {
+  background-image: url("../images/phones/phone-julia.png");
 }
-.sophie-section a {
+.julia-section a {
   color: white;
 }
 /* **/
-/** rachel section */
-.rachel-section {
+/** Amber section */
+.amber-section {
   background-color: #f7ff68;
 }
-.rachel-section .app-text {
+.amber-section .app-text {
   color: black;
 }
-.rachel-section .app-screen {
-  background-image: url("../images/phones/phone-rachel.png");
+.amber-section .app-screen {
+  background-image: url("../images/phones/phone-amber.png");
 }
-.rachel-section a {
+.amber-section a {
   color: black;
 }
 /* -- GIRL GRID -- */
