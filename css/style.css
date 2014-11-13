@@ -3395,20 +3395,31 @@ html.touch .app-screen {
   }
 }
 /* **/
-/** ashley section */
-.jenah-section {
-  background-color: #ff66a3;
+/** julia section */
+.julia-section {
+  background-color: #afb4f1;
 }
-.jenah-section .app-screen {
-  background-image: url("../images/phones/phone-jenah.png");
+.julia-section .app-screen {
+  background-image: url("../images/phones/phone-julia.png");
 }
-.jenah-section a {
+.julia-section a {
+  color: white;
+}
+/* **/
+/** sjana section */
+.sjana-section {
+  background-color: #ffaa84;
+}
+.sjana-section .app-screen {
+  background-image: url("../images/phones/phone-sjana.png");
+}
+.sjana-section a {
   color: white;
 }
 /* **/
 /** sahara section */
 .sahara-section {
-  background-color: #afb4f1;
+  background-color: #9966cc;
 }
 .sahara-section .app-text {
   color: black;
@@ -3420,14 +3431,14 @@ html.touch .app-screen {
   color: black;
 }
 /* **/
-/** julia section */
-.julia-section {
-  background-color: #9966cc;
+/** jenah section */
+.jenah-section {
+  background-color: #ff66a3;
 }
-.julia-section .app-screen {
-  background-image: url("../images/phones/phone-julia.png");
+.jenah-section .app-screen {
+  background-image: url("../images/phones/phone-jenah.png");
 }
-.julia-section a {
+.jenah-section a {
   color: white;
 }
 /* **/
