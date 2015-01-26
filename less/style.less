@@ -5,13 +5,69 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-/*-- VARIABLES --*/
+/*-- VARIABLES & MIXINS --*/
 
 @orange : #ff631e;
 @pink : #FF0066;
 @purple : #663399;
 @blue : #5863e2;
 @yellow : #f2ff02;
+
+.blue-gradient (@startColor: #afb4f1; @endColor: #32ffff;) {
+  background: @endColor; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, @startColor 0%, @endColor 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,@startColor), color-stop(100%,@endColor)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  @startColor 0%,@endColor 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  @startColor 0%,@endColor 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  @startColor 0%,@endColor 100%); /* IE10+ */
+  background: linear-gradient(135deg,  @startColor 0%,@endColor 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@startColor', endColorstr='@endColor',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor',endColorstr='@endColor',GradientType=1);
+}
+
+.orange-gradient (@startColor: #ff5c2b; @endColor: #fcbd85;) {
+  background: #ff5c2b; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ff5c2b 0%, #fcbd85 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff5c2b), color-stop(100%,#fcbd85)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #ff5c2b 0%,#fcbd85 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #ff5c2b 0%,#fcbd85 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #ff5c2b 0%,#fcbd85 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #ff5c2b 0%,#fcbd85 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5c2b', endColorstr='#fcbd85',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.purple-gradient (@startColor: #663399; @endColor: #ffe6b7;) {
+  background: #663399; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #663399 0%, #ffe6b7 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#663399), color-stop(100%,#ffe6b7)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #663399 0%,#ffe6b7 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #663399 0%,#ffe6b7 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #663399 0%,#ffe6b7 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #663399 0%,#ffe6b7 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#663399', endColorstr='#ffe6b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.pink-gradient (@startColor: #b241bf; @endColor: #ff0066;) {
+  background: #b241bf; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #b241bf 0%, #ff0066 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#b241bf), color-stop(100%,#ff0066)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #b241bf 0%,#ff0066 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #b241bf 0%,#ff0066 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #b241bf 0%,#ff0066 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #b241bf 0%,#ff0066 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b241bf', endColorstr='#ff0066',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.yellow-gradient (@startColor: #a5c600; @endColor: #ffee02;) {
+  background: #a5c600; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #a5c600 0%, #ffee02 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a5c600), color-stop(100%,#ffee02)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #a5c600 0%,#ffee02 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #a5c600 0%,#ffee02 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #a5c600 0%,#ffee02 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #a5c600 0%,#ffee02 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5c600', endColorstr='#ffee02',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
 /** core styles */
 .default-font {
@@ -3741,7 +3797,8 @@ html.touch .app-screen {
 
 /** julia section */
 .julia-section {
-  background-color: lighten(@blue, 20%);
+  .blue-gradient;
+  /*background-color: lighten(@blue, 20%);*/
 }
 .julia-section .app-screen {
   background-image: url("../images/phones/phone-julia.png");
@@ -3753,7 +3810,8 @@ html.touch .app-screen {
 
 /** sjana section */
 .sjana-section {
-  background-color: lighten(@orange, 20%);
+  .orange-gradient;
+  /*background-color: lighten(@orange, 20%);*/
 }
 .sjana-section .app-screen {
   background-image: url("../images/phones/phone-sjana.png");
@@ -3765,7 +3823,8 @@ html.touch .app-screen {
 
 /** sahara section */
 .sahara-section {
-  background-color: lighten(@purple, 20%);
+  .purple-gradient;
+  /*background-color: lighten(@purple, 20%);*/
 }
 .sahara-section .app-text {
   color: black;
@@ -3780,7 +3839,8 @@ html.touch .app-screen {
 
 /** jenah section */
 .jenah-section {
-  background-color: lighten(@pink, 20%);
+  .pink-gradient;
+  /*background-color: lighten(@pink, 20%);*/
 }
 .jenah-section .app-screen {
   background-image: url("../images/phones/phone-jenah.png");
@@ -3792,7 +3852,8 @@ html.touch .app-screen {
 
 /** Amber section */
 .amber-section {
-  background-color: lighten(@yellow, 20%);
+  .yellow-gradient;
+  /*background-color: lighten(@yellow, 20%);*/
 }
 .amber-section .app-text {
   color: black;
@@ -3837,7 +3898,8 @@ html.touch .app-screen {
 /* **/
 /** prefooter section */
 .prefooter-section {
-  background: lighten(@pink, 40%);
+  background: fade(@pink, 80%);
+  background: url(../images/stardust.png) repeat;
 }
 .reserve-btn {
   padding: 12px 72px;
