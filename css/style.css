@@ -2442,6 +2442,80 @@ div.melanie-r-img:hover {
     background-size: contain;
   }
 }
+/*----MICHELLE MATURO----*/
+div.michelle-m-img {
+  display: block;
+  background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.michelle-m-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: michelle-m-cat 1.2s ease-in-out;
+  -moz-animation: michelle-m-cat 1.2s ease-in-out;
+  -webkit-animation: michelle-m-cat 1.2s ease-in-out;
+  animation: michelle-m-cat 1.2s ease-in-out;
+}
+@-o-keyframes melanie-r-cat {
+  0% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/michelle-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes michelle-m-cat {
+  0% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/michelle-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes michelle-m-cat {
+  0% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/michelle-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes michelle-m-cat {
+  0% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/michelle-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
 /*----NARESSA VALDEZ----*/
 div.naressa-v-img {
   display: block;
