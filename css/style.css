@@ -2448,7 +2448,7 @@ div.michelle-m-img {
   background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
   background-size: contain;
   height: auto;
-  padding-top: 100%;
+  padding-top: 100%
 }
 div.michelle-m-img:hover {
   background-size: contain;
