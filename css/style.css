@@ -832,6 +832,74 @@ div.amber-a-img:hover {
     background-size: contain;
   }
 }
+/*---AMBER ASALY---*/
+div.amy-j-img {
+  display: block;
+  background: url('../images/circles-sm/amy-j-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.amy-j-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: amy-j-cat 1.2s ease-in-out;
+  -moz-animation: amy-j-cat 2s;
+  -webkit-animation: amy-j-cat 1.2s ease-in-out;
+  animation: amy-j-cat 1.2s ease-in-out;
+}
+@-o-keyframes amy-j-cat {
+  0% {
+    background: url('../images/circles-sm/amy-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/amy-j-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/amy-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes amy-j-cat {
+  0%,
+  100% {
+    background: url('../images/circles-sm/amy-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/amy-j-cat.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes amy-j-cat {
+  0% {
+    background: url('../images/circles-sm/amy-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/amy-j-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/amy-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes amy-j-cat {
+  0%,
+  100% {
+    background: red;
+    background-size: contain;
+  }
+  50% {
+    background: green;
+    background-size: contain;
+  }
+}
 /*---ANGELICA PADILLA---*/
 div.angelica-p-img {
   display: block;
@@ -900,6 +968,142 @@ div.angelica-p-img:hover {
     background-size: contain;
   }
 }
+/*---ANGELICA PADILLA---*/
+div.annmarie-h-img {
+  display: block;
+  background: url('../images/circles-sm/annmarie-h-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.annmarie-h-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: annmarie-h-cat 1.2s ease-in-out;
+  -moz-animation: annmarie-h-cat 2s;
+  -webkit-animation: annmarie-h-cat 1.2s ease-in-out;
+  animation: annmarie-h-cat 1.2s ease-in-out;
+}
+@-o-keyframes annmarie-h-cat {
+  0% {
+    background: url('../images/circles-sm/annmarie-h-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/annmarie-h-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/annmarie-h-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes annmarie-h-cat {
+  0%,
+  100% {
+    background: url('../images/circles-sm/annmarie-h-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/annmarie-h-cat.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes annmarie-h-cat {
+  0% {
+    background: url('../images/circles-sm/annmarie-h-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/annmarie-h-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/annmarie-h-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes annmarie-h-cat {
+  0%,
+  100% {
+    background: red;
+    background-size: contain;
+  }
+  50% {
+    background: green;
+    background-size: contain;
+  }
+}
+/*---ARIELLE REITSMA---*/
+div.arielle-r-img {
+  display: block;
+  background: url('../images/circles-sm/arielle-r-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.arielle-r-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: arielle-r-cat 1.2s ease-in-out;
+  -moz-animation: arielle-r-cat 2s;
+  -webkit-animation: arielle-r-cat 1.2s ease-in-out;
+  animation: arielle-r-cat 1.2s ease-in-out;
+}
+@-o-keyframes arielle-r-cat {
+  0% {
+    background: url('../images/circles-sm/arielle-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/arielle-r-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/arielle-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes arielle-r-cat {
+  0%,
+  100% {
+    background: url('../images/circles-sm/arielle-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/arielle-r-cat.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes arielle-r-cat {
+  0% {
+    background: url('../images/circles-sm/arielle-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/arielle-r-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/arielle-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes arielle-r-cat {
+  0%,
+  100% {
+    background: red;
+    background-size: contain;
+  }
+  50% {
+    background: green;
+    background-size: contain;
+  }
+}
 /*---ASHLEY MOORE----*/
 div.ashley-m-img {
   display: block;
@@ -958,6 +1162,74 @@ div.ashley-m-img:hover {
   }
 }
 @keyframes ashley-m-cat {
+  0%,
+  100% {
+    background: red;
+    background-size: contain;
+  }
+  50% {
+    background: green;
+    background-size: contain;
+  }
+}
+/*---ASHLEY MOORE----*/
+div.asia-d-img {
+  display: block;
+  background: url('../images/circles-sm/asia-d-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.asia-d-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: asia-d-cat 1.2s ease-in-out;
+  -moz-animation: asia-d-cat 2s;
+  -webkit-animation: asia-d-cat 1.2s ease-in-out;
+  animation: asia-d-cat 1.2s ease-in-out;
+}
+@-o-keyframes asia-d-cat {
+  0% {
+    background: url('../images/circles-sm/asia-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/asia-d-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/asia-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes asia-d-cat {
+  0%,
+  100% {
+    background: url('../images/circles-sm/asia-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/asia-d-cat.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes asia-d-cat {
+  0% {
+    background: url('../images/circles-sm/asia-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/asia-d-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/asia-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes asia-d-cat {
   0%,
   100% {
     background: red;
@@ -1406,6 +1678,80 @@ div.charlotte-img:hover {
     background-size: contain;
   }
 }
+/*----CHARLOTTE MCKINNEY----*/
+div.chloe-l-img {
+  display: block;
+  background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.chloe-l-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: chloe-l-cat 1.2s ease-in-out;
+  -moz-animation: chloe-l-cat 1.2s ease-in-out;
+  -webkit-animation: chloe-l-cat 1.2s ease-in-out;
+  animation: chloe-l-cat 1.2s ease-in-out;
+}
+@-o-keyframes chloe-l-cat {
+  0% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/chloe-l-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes chloe-l-cat {
+  0% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/chloe-l-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes chloe-l-cat {
+  0% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/chloe-l-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes chloe-l-cat {
+  0% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/chloe-l-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/chloe-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
 /*----CHEYENNE TOZZI-----*/
 div.cheyenne-img {
   display: block;
@@ -1477,6 +1823,154 @@ div.cheyenne-img:hover {
   }
   100% {
     background: url('../images/circles-sm/cheyenne-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+/*----EMMA ROSE-----*/
+div.emma-r-img {
+  display: block;
+  background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.emma-r-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: emma-r-cat 1.2s ease-in-out;
+  -moz-animation: emma-r-cat 1.2s ease-in-out;
+  -webkit-animation: emma-r-cat 1.2s ease-in-out;
+  animation: emma-r-cat 1.2s ease-in-out;
+}
+@-o-keyframes emma-r-cat {
+  0% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/emma-r-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes emma-r-cat {
+  0% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/emma-r-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes emma-r-cat {
+  0% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/emma-r-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes emma-r-cat {
+  0% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/emma-r-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/emma-r-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+/*----GEORGIA MAGREE----*/
+div.georgia-m-img {
+  display: block;
+  background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.georgia-m-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: georgia-m-cat 1.2s ease-in-out;
+  -moz-animation: georgia-m-cat 1.2s ease-in-out;
+  -webkit-animation: georgia-m-cat 1.2s ease-in-out;
+  animation: georgia-m-cat 1.2s ease-in-out;
+}
+@-o-keyframes georgia-m-cat {
+  0% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/georgia-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes georgia-m-cat {
+  0% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/georgia-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes georgia-m-cat {
+  0% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/georgia-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes georgia-m-cat {
+  0% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/georgia-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/georgia-m-circ.png') no-repeat;
     background-size: contain;
   }
 }
@@ -2294,6 +2788,80 @@ div.lisa-img:hover {
     background-size: contain;
   }
 }
+/*---- Mahina Alexander ----*/
+div.mahina-a-img {
+  display: block;
+  background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.mahina-a-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: mahina-a-cat 1.2s ease-in-out;
+  -moz-animation: mahina-a-cat 1.2s ease-in-out;
+  -webkit-animation: mahina-a-cat 1.2s ease-in-out;
+  animation: mahina-a-cat 1.2s ease-in-out;
+}
+@-o-keyframes mahina-a-cat {
+  0% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mahina-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes mara-t-cat {
+  0% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mahina-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes mahina-a-cat {
+  0% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mahina-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes mahina-a-cat {
+  0% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mahina-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mahina-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
 /*----MARA TIEGEN----*/
 div.mara-t-img {
   display: block;
@@ -2448,7 +3016,7 @@ div.michelle-m-img {
   background: url('../images/circles-sm/michelle-m-circ.png') no-repeat;
   background-size: contain;
   height: auto;
-  padding-top: 100%
+  padding-top: 100%;
 }
 div.michelle-m-img:hover {
   background-size: contain;
@@ -2735,6 +3303,80 @@ div.rachel-img:hover {
   }
   100% {
     background: url('../images/circles-sm/rachel-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+/*---- RACHEL MORTENSON -----*/
+div.rachel-m-img {
+  display: block;
+  background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.rachel-m-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: rachel-m-cat 1.2s ease-in-out;
+  -moz-animation: rachel-m-cat 1.2s ease-in-out;
+  -webkit-animation: rachel-m-cat 1.2s ease-in-out;
+  animation: rachel-m-cat 1.2s ease-in-out;
+}
+@-o-keyframes rachel-m-cat {
+  0% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/rachel-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes rachel-m-cat {
+  0% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/rachel-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes rachel-m-cat {
+  0% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/rachel-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes rachel-m-cat {
+  0% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/rachel-m-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/rachel-m-circ.png') no-repeat;
     background-size: contain;
   }
 }
