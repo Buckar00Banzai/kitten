@@ -628,6 +628,74 @@ p.wide {
     padding-bottom: 24px;
   }
 }*/
+/*--- ALIE LAYUS---*/
+div.alie-l-img {
+  display: block;
+  background: url('../images/circles-sm/alie-l-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.alie-l-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: alie-l-cat 1.2s ease-in-out;
+  -moz-animation: alie-l-cat 2s;
+  -webkit-animation: alie-l-cat 1.2s ease-in-out;
+  animation: alie-l-cat 1.2s ease-in-out;
+}
+@-o-keyframes alie-l-cat {
+  0% {
+    background: url('../images/circles-sm/alie-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/alie-l-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/alie-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes alie-l-cat {
+  0%,
+  100% {
+    background: url('../images/circles-sm/alie-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/alie-l-cat.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes alie-l-cat {
+  0% {
+    background: url('../images/circles-sm/alie-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/alie-l-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/alie-l-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes alie-l-cat {
+  0%,
+  100% {
+    background: red;
+    background-size: contain;
+  }
+  50% {
+    background: green;
+    background-size: contain;
+  }
+}
 /*---AMANDA DEL LUCA---*/
 div.amanda-d-img {
   display: block;
@@ -1162,6 +1230,74 @@ div.ashley-m-img:hover {
   }
 }
 @keyframes ashley-m-cat {
+  0%,
+  100% {
+    background: red;
+    background-size: contain;
+  }
+  50% {
+    background: green;
+    background-size: contain;
+  }
+}
+/*---ASHLEY MOORE----*/
+div.ashley-v-img {
+  display: block;
+  background: url('../images/circles-sm/ashley-v-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.ashley-v-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: ashley-v-cat 1.2s ease-in-out;
+  -moz-animation: ashley-v-cat 2s;
+  -webkit-animation: ashley-v-cat 1.2s ease-in-out;
+  animation: ashley-v-cat 1.2s ease-in-out;
+}
+@-o-keyframes ashley-v-cat {
+  0% {
+    background: url('../images/circles-sm/ashley-v-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/ashley-v-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/ashley-v-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes ashley-v-cat {
+  0%,
+  100% {
+    background: url('../images/circles-sm/ashley-v-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/ashley-v-cat.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes ashley-v-cat {
+  0% {
+    background: url('../images/circles-sm/ashley-v-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/ashley-v-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/ashley-v-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes ashley-v-cat {
   0%,
   100% {
     background: red;
@@ -1826,6 +1962,80 @@ div.cheyenne-img:hover {
     background-size: contain;
   }
 }
+/*---- Courtney Allegra -----*/
+div.courtney-a-img {
+  display: block;
+  background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.courtney-a-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: courtney-a-cat 1.2s ease-in-out;
+  -moz-animation: courtney-a-cat 1.2s ease-in-out;
+  -webkit-animation: courtney-a-cat 1.2s ease-in-out;
+  animation: courtney-a-cat 1.2s ease-in-out;
+}
+@-o-keyframes courtney-a-cat {
+  0% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/courtney-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes courtney-a-cat {
+  0% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/courtney-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes courtney-a-cat {
+  0% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/courtney-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes courtney-a-cat {
+  0% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/courtney-a-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/courtney-a-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
 /*----EMMA ROSE-----*/
 div.emma-r-img {
   display: block;
@@ -2123,6 +2333,80 @@ div.greta-r-img:hover {
   }
 }
 /*---HATTIE WATSON---*/
+div.haruna-b-img {
+  display: block;
+  background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.haruna-b-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: haruna-b-cat 1.2s ease-in-out;
+  -moz-animation: haruna-b-cat 1.2s ease-in-out;
+  -webkit-animation: haruna-b-cat 1.2s ease-in-out;
+  animation: haruna-b-cat 1.2s ease-in-out;
+}
+@-o-keyframes haruna-b-cat {
+  0% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/haruna-b-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes haruna-b-cat {
+  0% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/haruna-b-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes haruna-b-cat {
+  0% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/haruna-b-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes haruna-b-cat {
+  0% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/haruna-b-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/haruna-b-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+/*---HATTIE WATSON---*/
 div.hattie-w-img {
   display: block;
   background: url('../images/circles-sm/hattie-w-circ.png') no-repeat;
@@ -2193,6 +2477,80 @@ div.hattie-w-img:hover {
   }
   100% {
     background: url('../images/circles-sm/hattie-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+/*----JENAH YAMAMOTO----*/
+div.jean-w-img {
+  display: block;
+  background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.jean-w-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: jean-w-cat 1.2s ease-in-out;
+  -moz-animation: jean-w-cat 1.2s ease-in-out;
+  -webkit-animation: jean-w-cat 1.2s ease-in-out;
+  animation: jean-w-cat 1.2s ease-in-out;
+}
+@-o-keyframes jean-w-cat {
+  0% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/jean-w-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes jean-w-cat {
+  0% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/jean-w-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes jean-w-cat {
+  0% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/jean-w-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes jean-w-cat {
+  0% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/jean-w-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/jean-w-circ.png') no-repeat;
     background-size: contain;
   }
 }
@@ -2341,80 +2699,6 @@ div.jillian-w-img:hover {
   }
   100% {
     background: url('../images/circles-sm/jillian-w-circ.png') no-repeat;
-    background-size: contain;
-  }
-}
-/*----JULIA FRIEDMANN----*/
-div.julia-f-img {
-  display: block;
-  background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-  background-size: contain;
-  height: auto;
-  padding-top: 100%;
-}
-div.julia-f-img:hover {
-  background-size: contain;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
-  -o-animation: julia-f-cat 1.2s ease-in-out;
-  -moz-animation: julia-f-cat 1.2s ease-in-out;
-  -webkit-animation: julia-f-cat 1.2s ease-in-out;
-  animation: julia-f-cat 1.2s ease-in-out;
-}
-@-o-keyframes julia-f-cat {
-  0% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-    background-size: contain;
-  }
-  50% {
-    background: url('../images/circles-sm/julia-f-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-    background-size: contain;
-  }
-}
-@-moz-keyframes julia-f-cat {
-  0% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-    background-size: contain;
-  }
-  50% {
-    background: url('../images/circles-sm/julia-f-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-    background-size: contain;
-  }
-}
-@-webkit-keyframes julia-f-cat {
-  0% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-    background-size: contain;
-  }
-  50% {
-    background: url('../images/circles-sm/julia-f-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-    background-size: contain;
-  }
-}
-@keyframes julia-f-cat {
-  0% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
-    background-size: contain;
-  }
-  50% {
-    background: url('../images/circles-sm/julia-f-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/julia-f-circ.png') no-repeat;
     background-size: contain;
   }
 }
