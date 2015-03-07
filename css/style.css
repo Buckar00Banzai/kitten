@@ -4114,6 +4114,80 @@ div.jocelyn-img:hover {
     background-size: contain;
   }
 }
+/* JOY CORRIGAN */
+div.joy-c-img {
+  display: block;
+  background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+div.joy-c-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: joy-c-cat 1.2s ease-in-out;
+  -moz-animation: joy-c-cat 1.2s ease-in-out;
+  -webkit-animation: joy-c-cat 1.2s ease-in-out;
+  animation: joy-c-cat 1.2s ease-in-out;
+}
+@-o-keyframes joy-c-cat {
+  0% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/joy-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes joy-c-cat {
+  0% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/joy-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes joy-c-cat {
+  0% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/joy-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes joy-c-cat {
+  0% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/joy-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/joy-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
 div.gia-img {
   display: block;
   background: url('../images/circles-sm/gia-circ.png') no-repeat;
