@@ -968,74 +968,6 @@ div.amy-j-img:hover {
     background-size: contain;
   }
 }
-/*---ANGELICA PADILLA---*/
-div.angelica-p-img {
-  display: block;
-  background: url('../images/circles-sm/angelica-p-circ.png') no-repeat;
-  background-size: contain;
-  height: auto;
-  padding-top: 100%;
-}
-div.angelica-p-img:hover {
-  background-size: contain;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
-  -o-animation: angelica-p-cat 1.2s ease-in-out;
-  -moz-animation: angelica-p-cat 2s;
-  -webkit-animation: angelica-p-cat 1.2s ease-in-out;
-  animation: angelica-p-cat 1.2s ease-in-out;
-}
-@-o-keyframes angelica-p-cat {
-  0% {
-    background: url('../images/circles-sm/angelica-p-circ.png') no-repeat;
-    background-size: contain;
-  }
-  50% {
-    background: url('../images/circles-sm/angelica-p-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/angelica-p-circ.png') no-repeat;
-    background-size: contain;
-  }
-}
-@-moz-keyframes angelica-p-cat {
-  0%,
-  100% {
-    background: url('../images/circles-sm/angelica-p-circ.png') no-repeat;
-    background-size: contain;
-  }
-  50% {
-    background: url('../images/circles-sm/angelica-p-cat.png') no-repeat;
-    background-size: contain;
-  }
-}
-@-webkit-keyframes angelica-p-cat {
-  0% {
-    background: url('../images/circles-sm/angelica-p-circ.png') no-repeat;
-    background-size: contain;
-  }
-  50% {
-    background: url('../images/circles-sm/angelica-p-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/angelica-p-circ.png') no-repeat;
-    background-size: contain;
-  }
-}
-@keyframes angelica-p-cat {
-  0%,
-  100% {
-    background: red;
-    background-size: contain;
-  }
-  50% {
-    background: green;
-    background-size: contain;
-  }
-}
 /*---ANN MARIE HOA---*/
 div.annmarie-h-img {
   display: block;
@@ -1592,77 +1524,77 @@ div.bo-img:hover {
     background-size: contain;
   }
 }
-/*---CAITLIN BARKERN---*/
-div.caitlin-b-img {
+/*---CAIT BARKER---*/
+div.cait-b-img {
   display: block;
-  background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+  background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
   background-size: contain;
   height: auto;
   padding-top: 100%;
 }
-div.caitlin-b-img:hover {
+div.cait-b-img:hover {
   background-size: contain;
   width: 100%;
   height: auto;
   padding-top: 100%;
-  -o-animation: caitlin-b-cat 1.2s ease-in-out;
-  -moz-animation: caitlin-b-cat 1.2s ease-in-out;
-  -webkit-animation: caitlin-b-cat 1.2s ease-in-out;
-  animation: caitlin-b-cat 1.2s ease-in-out;
+  -o-animation: cait-b-cat 1.2s ease-in-out;
+  -moz-animation: cait-b-cat 1.2s ease-in-out;
+  -webkit-animation: cait-b-cat 1.2s ease-in-out;
+  animation: cait-b-cat 1.2s ease-in-out;
 }
-@-o-keyframes caitlin-b-cat {
+@-o-keyframes cait-b-cat {
   0% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: url('../images/circles-sm/caitlin-b-cat.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-cat.png') no-repeat;
     background-size: contain;
   }
   100% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
 }
-@-moz-keyframes caitlin-b-cat {
+@-moz-keyframes cait-b-cat {
   0% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: url('../images/circles-sm/caitlin-b-cat.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-cat.png') no-repeat;
     background-size: contain;
   }
   100% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
 }
-@-webkit-keyframes caitlin-b-cat {
+@-webkit-keyframes cait-b-cat {
   0% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: url('../images/circles-sm/caitlin-b-cat.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-cat.png') no-repeat;
     background-size: contain;
   }
   100% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
 }
-@keyframes caitlin-b-cat {
+@keyframes cait-b-cat {
   0% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: url('../images/circles-sm/caitlin-b-cat.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-cat.png') no-repeat;
     background-size: contain;
   }
   100% {
-    background: url('../images/circles-sm/caitlin-b-circ.png') no-repeat;
+    background: url('../images/circles-sm/cait-b-circ.png') no-repeat;
     background-size: contain;
   }
 }
@@ -4108,6 +4040,7 @@ div.taylor-l-img:hover {
     background-size: contain;
   }
 }
+/* JOCELYN CHEW */
 div.jocelyn-img {
   display: block;
   background: url('../images/circles-sm/jocelyn-circ.png') no-repeat;
