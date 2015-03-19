@@ -191,17 +191,6 @@
         })();
     })();
 
-
-    // Defer video load
-    // ----------------
-    //
-    // Grab data-* attrs and turn those into attrs of an iframe
-    //
-    $window.load(function() {
-        var $vp = $('.video-placeholder');
-        $('<iframe>', $vp.data()).replaceAll($vp).hide().fadeIn(2000);
-    });
-
     // Defer classes
     // -------------
     //
