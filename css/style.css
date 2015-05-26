@@ -628,6 +628,7 @@ p.wide {
     padding-bottom: 24px;
   }
 }*/
+/* ANIMATIONS */
 /*--- ALIE LAYUS---*/
 a.alie-l-img {
   display: block;
@@ -688,11 +689,11 @@ a.alie-l-img:hover {
 @keyframes alie-l-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/alie-l-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/alie-l-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -756,11 +757,11 @@ a.amanda-d-img:hover {
 @keyframes amanda-d-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/amanda-d-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/amanda-d-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -824,11 +825,11 @@ a.amanda-l-img:hover {
 @keyframes amanda-l-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/amanda-l-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/amanda-l-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -892,11 +893,11 @@ a.amber-a-img:hover {
 @keyframes amber-a-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/amber-a-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/amber-a-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -960,11 +961,11 @@ a.amy-j-img:hover {
 @keyframes amy-j-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/amy-j-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/amy-j-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -1028,11 +1029,11 @@ a.annmarie-h-img:hover {
 @keyframes annmarie-h-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/annmarie-h-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/annmarie-h-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -1096,11 +1097,11 @@ a.arielle-r-img:hover {
 @keyframes arielle-r-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/arielle-r-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/arielle-r-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -1164,11 +1165,11 @@ a.ashley-m-img:hover {
 @keyframes ashley-m-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/ashley-m-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/ashley-m-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -1232,11 +1233,11 @@ a.ashley-v-img:hover {
 @keyframes ashley-v-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/ashley-v-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/ashley-v-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -1300,11 +1301,11 @@ a.asia-d-img:hover {
 @keyframes asia-d-cat {
   0%,
   100% {
-    background: red;
+    background: url('../images/circles-sm/asia-d-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
-    background: green;
+    background: url('../images/circles-sm/asia-d-cat.png') no-repeat;
     background-size: contain;
   }
 }
@@ -1366,16 +1367,13 @@ a.anastasia-img:hover {
   }
 }
 @keyframes anastasia-cat {
-  0% {
+  0%,
+  100% {
     background: url('../images/circles-sm/anastasia-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
     background: url('../images/circles-sm/anastasia-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/anastasia-circ.png') no-repeat;
     background-size: contain;
   }
 }
@@ -4396,16 +4394,13 @@ a.gia-img:hover {
   }
 }
 @keyframes gia-cat {
-  0% {
+  0%,
+  100% {
     background: url('../images/circles-sm/gia-circ.png') no-repeat;
     background-size: contain;
   }
   50% {
     background: url('../images/circles-sm/gia-cat.png') no-repeat;
-    background-size: contain;
-  }
-  100% {
-    background: url('../images/circles-sm/gia-circ.png') no-repeat;
     background-size: contain;
   }
 }
