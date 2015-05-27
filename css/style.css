@@ -4404,6 +4404,613 @@ a.gia-img:hover {
     background-size: contain;
   }
 }
+
+/* SHAWNY SANDERS */ 
+a.shawny-s-img {
+  display: block;
+  background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.shawny-s-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: shawny-s-cat 1.2s ease-in-out;
+  -moz-animation: shawny-s-cat 1.2s ease-in-out;
+  -webkit-animation: shawny-s-cat 1.2s ease-in-out;
+  animation: shawny-s-cat 1.2s ease-in-out;
+}
+@-o-keyframes shawny-s-cat {
+  0% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/shawny-s-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes shawny-s-cat {
+  0% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/shawny-s-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes shawny-s-cat {
+  0% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/shawny-s-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes shawny-s-cat {
+  0% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/shawny-s-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/shawny-s-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+/* MS. NINA */ 
+a.nina-j-img {
+  display: block;
+  background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.nina-j-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: nina-j-cat 1.2s ease-in-out;
+  -moz-animation: nina-j-cat 1.2s ease-in-out;
+  -webkit-animation: nina-j-cat 1.2s ease-in-out;
+  animation: nina-j-cat 1.2s ease-in-out;
+}
+@-o-keyframes nina-j-cat {
+  0% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/nina-j-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes nina-j-cat {
+  0% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/nina-j-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes nina-j-cat {
+  0% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/nina-j-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes nina-j-cat {
+  0% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/nina-j-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/nina-j-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+/* BLANDA */ 
+a.blanda-img {
+  display: block;
+  background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.blanda-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: blanda-cat 1.2s ease-in-out;
+  -moz-animation: blanda-cat 1.2s ease-in-out;
+  -webkit-animation: blanda-cat 1.2s ease-in-out;
+  animation: blanda-cat 1.2s ease-in-out;
+}
+@-o-keyframes blanda-cat {
+  0% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/blanda-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes blanda-cat {
+  0% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/blanda-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes blanda-cat {
+  0% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/blanda-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes blanda-cat {
+  0% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/blanda-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/blanda-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+/* MINA DOLL */ 
+a.mina-d-img {
+  display: block;
+  background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.mina-d-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: mina-d-cat 1.2s ease-in-out;
+  -moz-animation: mina-d-cat 1.2s ease-in-out;
+  -webkit-animation: mina-d-cat 1.2s ease-in-out;
+  animation: mina-d-cat 1.2s ease-in-out;
+}
+@-o-keyframes mina-d-cat {
+  0% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mina-d-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes mina-d-cat {
+  0% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mina-d-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes mina-d-cat {
+  0% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mina-d-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes mina-d-cat {
+  0% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/mina-d-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/mina-d-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+/* VALFRE */ 
+a.valfre-img {
+  display: block;
+  background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.valfre-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: valfre-cat 1.2s ease-in-out;
+  -moz-animation: valfre-cat 1.2s ease-in-out;
+  -webkit-animation: valfre-cat 1.2s ease-in-out;
+  animation: valfre-cat 1.2s ease-in-out;
+}
+@-o-keyframes valfre-cat {
+  0% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/valfre-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes valfre-cat {
+  0% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/valfre-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes valfre-cat {
+  0% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/valfre-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes valfre-cat {
+  0% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/valfre-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/valfre-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+/* KAYSLEE COLLINS */ 
+a.kayslee-c-img {
+  display: block;
+  background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.kayslee-c-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: kayslee-c-cat 1.2s ease-in-out;
+  -moz-animation: kayslee-c-cat 1.2s ease-in-out;
+  -webkit-animation: kayslee-c-cat 1.2s ease-in-out;
+  animation: kayslee-c-cat 1.2s ease-in-out;
+}
+@-o-keyframes kayslee-c-cat {
+  0% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/kayslee-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes kayslee-c-cat {
+  0% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/kayslee-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes kayslee-c-cat {
+  0% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/kayslee-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes kayslee-c-cat {
+  0% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/kayslee-c-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/kayslee-c-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+/* RAYA */ 
+a.raya-img {
+  display: block;
+  background: url('../images/circles-sm/raya-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.raya-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: raya-cat 1.2s ease-in-out;
+  -moz-animation: raya-cat 1.2s ease-in-out;
+  -webkit-animation: raya-cat 1.2s ease-in-out;
+  animation: raya-cat 1.2s ease-in-out;
+}
+@-o-keyframes raya-cat {
+  0% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/raya-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes raya-cat {
+  0% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/raya-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes raya-cat {
+  0% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/raya-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes raya-cat {
+  0% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/raya-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/raya-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+/* PROFILE TEMPLATE + ANIMATION 
+a.modelName-img {
+  display: block;
+  background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+  background-size: contain;
+  height: auto;
+  padding-top: 100%;
+}
+a.modelName-img:hover {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  -o-animation: modelName-cat 1.2s ease-in-out;
+  -moz-animation: modelName-cat 1.2s ease-in-out;
+  -webkit-animation: modelName-cat 1.2s ease-in-out;
+  animation: modelName-cat 1.2s ease-in-out;
+}
+@-o-keyframes modelName-cat {
+  0% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/modelName-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-moz-keyframes modelName-cat {
+  0% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/modelName-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@-webkit-keyframes modelName-cat {
+  0% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/modelName-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes modelName-cat {
+  0% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background: url('../images/circles-sm/modelName-cat.png') no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background: url('../images/circles-sm/modelName-circ.png') no-repeat;
+    background-size: contain;
+  }
+}
+*/
+
+
+
+
+
 .item-img .img,
 .item-img .img_h {
   max-width: 100%;
